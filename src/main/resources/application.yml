@@ -1,0 +1,11 @@
+server:
+  port: ${SERVICE_PORT:8080}
+
+logging:
+  config: classpath:logback.xml
+  level:
+    org.springframework.boot.autoconfigure: ERROR
+    com.study: DEBUG
+
+
+
